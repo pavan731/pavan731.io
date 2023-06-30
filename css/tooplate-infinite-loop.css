@@ -119,7 +119,8 @@ blockquote {
 .tm-navbar.scroll .tm-nav-link:hover,
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover {
-  color: #FFF;
+  color: #f5f0f0;
+  /* background-image: linear-gradient((#369),(#E1467C)); */
   background-color: #369;
 }
 
@@ -140,6 +141,47 @@ blockquote {
 
 .tm-navbar.scroll .navbar-toggler-icon {
   color: #707070;
+}
+
+.onew{
+  position: relative;
+}
+.onew img{
+  float: left;
+  width: 16%;
+ padding-left: 30px;
+  height: 20%;
+}
+.onetextw a{
+  color: white;
+}
+
+.onetextw{
+  position: absolute;
+  top: 0;
+  padding-left: 50px;
+   
+  
+}
+
+.one{
+  position: relative;
+}
+.one img{
+  max-width: 100%;
+  height: auto;
+}
+
+.onetext a{
+  color: white;
+}
+
+.onetext{
+  position: absolute;
+  top: 0;
+  padding-left: 20px;
+   
+  
 }
 
 /* Hero */
@@ -308,7 +350,18 @@ blockquote {
   transform: scale(1.1);
   transition: 0.5s;
 }
-
+.acontainer h6{
+  color: yellow;
+}
+.acontainer h2{
+  color: white;
+}
+.container h6{
+  color: yellow;
+}
+.container h1{
+  color: white;
+}
 
 
 .t2container {
