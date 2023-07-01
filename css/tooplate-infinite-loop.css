@@ -968,7 +968,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
 input[type=text], select, textarea {
-  width: 650px;
+  width:100%;
   background-color: #FFF2EC;
   padding: 12px;
   border: 1px solid #ccc;
@@ -980,7 +980,7 @@ input[type=text], select, textarea {
 }
 
 .cont h3{
-  width: 100%;
+
   align-items: center;
   color: #FF5E19;
   align-items: center;
@@ -990,11 +990,11 @@ input[type=text], select, textarea {
   
   color: #6E6E6E;
   align-items: center;
-  width: 100%;
+ 
 }
 
 input[type=submit] {
-  width: 650px;
+  width: 100%;
   background-color: #FF5E19;
   color: white;
   padding: 12px 20px;
@@ -1011,9 +1011,9 @@ input[type=submit]:hover {
 
 .foot{
   background-color: white;
-  width: 700px;
+  width: 100%;
   padding: 10px 10px 10px 10px;
-  padding-right: 200px;
+
   border: 5px solid white;
   margin: 0;
   border: none;
@@ -1023,9 +1023,9 @@ input[type=submit]:hover {
 } 
 
 .cimg{
-  height: 800px;
-  width: 700px;
-  padding: 10px;
+  height: 100%;
+  width: 100%;
+  padding: 10px ;
   /* border: 5px solid white; */
   margin: 0;
   border: none;
@@ -1035,21 +1035,22 @@ input[type=submit]:hover {
 .contact{
   text-decoration: none;
  
-  border: 60px solid #000000;
+  border: 50px solid #E63946;
   border-radius: 20px;
   padding-top: 10%;
   background-color: #E63946;
   display: flex;
   flex-direction: row;
 
-  border-radius: 100px;
+  border-radius: 25px;
 }
 
 .bethe{
 
   text-shadow: 1px 4px 1px #000000;
   -webkit-text-stroke: 1px black;
-  padding-bottom: 350px;
+  padding-bottom: 320px;
+  padding-left: 20px;
 }
 
 .textcol{
@@ -1080,9 +1081,8 @@ input[type=submit]:hover {
 }
 
 .social {
-  justify-content: space-around;
-  padding-left: 0px;
-  padding-top: 20px;
+  justify-content: space-evenly;
+  padding-top: 10px;
   display: flex;
   flex-direction: row;
   border: none;

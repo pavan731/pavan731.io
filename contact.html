@@ -61,14 +61,15 @@
       </section>
 
       <section id="contact" class="tm-section-pad-top tm-parallax-2">
+        <div class="container">
     
-        <div class="container tm-container-contact">
+        <!-- <div class="container tm-container-contact"> -->
           
-          <div class="row">
+          <!-- <div class="row" style="align-items: center;"> -->
               
-            <div class="contact">
+            <div class="contact" style="align-items: center;">
               <div class="cimg">
-                <div class="bethe">
+                <div class="bethe" >
                 <h1>BE THE BRAND THAT<br>
                  CUSTOMERS WANT <br>& COMPETATORS ENVY.</h1>
                 </div>
@@ -99,12 +100,12 @@
              
     
           <div class="foot">
-            <div class="cont">
+            <div class="cont" >
               <h3>Contact Form</h3>
               <h6>We will contact you within 24hrs, Pinky Monkey Promise</h6>
               </div>
     
-              <div class="textcol">
+              <div class="textcol" >
                 <form action="/action_page.php">
                   <label for="fname">Name*</label>
                   <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
@@ -127,12 +128,7 @@
             </div>
           
         </div>
-        <div class="container">
-          <div class="servimg2">
-           
-            <img src="./madmonk/constants/end.png" alt="">
-          </div>
-        </div>
+      
   
           <!-- <footer class="text-center small tm-footer">
   
@@ -142,33 +138,12 @@
             
              . <a rel="nofollow" href="https://www.tooplate.com" title="HTML templates"></a></p> -->
           <!-- </footer>  -->
-  
+        </div>
+      </div>
       </section>
 
-      <script src="js/jquery-1.9.1.min.js"></script>     
-    <script src="slick/slick.min.js"></script>
-    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="js/easing.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>     
-    <script src="js/bootstrap.min.js"></script> 
+      
     <script>
-
-      function getOffSet(){
-        var _offset = 450;
-        var windowHeight = window.innerHeight;
-
-        if(windowHeight > 500) {
-          _offset = 400;
-        } 
-        if(windowHeight > 680) {
-          _offset = 300
-        }
-        if(windowHeight > 830) {
-          _offset = 210;
-        }
-
-        return _offset;
-      }
 
       function setParallaxPosition($doc, multiplier, $object){
         var offset = getOffSet();
