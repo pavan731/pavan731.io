@@ -321,17 +321,22 @@ blockquote {
   padding: 20px 20px 20px 20px;
   padding-top: 50px;
   display: flex;
-  padding: 0px 45px;
-  justify-content: space-between;
+  
+  justify-content: space-around;
   flex-direction: row;
 
 }
 
 .movie img{
-  height: 300px;
-  width: 176px;
+  padding-top: 30px;
+  height: 100%;
+  width: 100%;
   border-radius: 8px;
   
+}
+.movie{
+  color: white;
+  padding-left: 40px;
 }
 
 .movie img:hover{
@@ -1298,4 +1303,14 @@ border-radius: 20px;
  width: 700px;
  height: 400px;
  background-color: #E63946;
+}
+
+.img1 img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.img2 img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
 }
