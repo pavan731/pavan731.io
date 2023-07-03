@@ -1080,6 +1080,28 @@ input[type=submit]:hover {
 
 }
 
+.mail1{
+  color: rgb(0, 0, 0);
+  padding-left: 20px;
+  
+}
+.mail1:hover{
+  transform: scale(1.01);
+  transition: 0.5s;
+
+}
+.call1{
+  color: rgb(0, 0, 0);
+  padding-left: 20px;
+  
+}
+
+.call1:hover{
+  transform: scale(1.01);
+  transition: 0.5s;
+
+}
+
 .social {
   justify-content: space-evenly;
   padding-top: 10px;
@@ -1098,4 +1120,182 @@ input[type=submit]:hover {
 .social img:hover{
   transform: scale(1.1);
   transition: 0.5s;
+}
+
+.whitebg{
+  padding-top: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: space-between;
+  border: 90px solid white;
+  
+}
+
+.whitebg h5{
+  color: #E63946;
+}
+
+.whitebg h6{
+  color: black;
+}
+
+.safran{
+  align-items: center;
+  background-color: #FF6E1A;
+}
+
+
+
+.horizont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item{
+  text-align: center;
+  
+  height: 100%;
+  width: 100%;
+}
+
+.conty{
+  text-align: center;
+ background-image: url(/madmonk/constants/number.png);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+}
+
+.serve{
+
+  display: flex;
+  flex-direction: row;
+  
+ justify-items: center;
+  justify-content: space-around;
+  /* padding-left: 20%;
+  padding-right: 20%; */
+  
+}
+
+.serve1{
+height: 500px;
+width: 550px;
+background: linear-gradient(to bottom right,#FFA51E,#FA5A92);
+display: flex;
+flex-direction: column;
+
+justify-items: center;
+text-align: justify;
+border-radius: 20px;
+
+
+}
+
+.ser{
+  padding-top: 50px;
+  padding-left: 40px;
+  height: 200px;
+  width: 500px;
+  color: white;
+}
+
+.contus{
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to bottom right,#FF000F,#FA00FF);
+  justify-items: center;
+  width: 1280px;
+  border-radius: 20px;
+  justify-content: space-around;
+}
+
+.make{
+  font-weight: bolder;
+  padding-left: 50px;
+  padding-top: 30px;
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+}
+
+.make img:hover{
+  transform: scaleX(1.2);
+  transition: 0.5s;
+
+}
+
+.serve1 img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+
+}
+
+.service1{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #000000;
+}
+
+.img1 img{
+  width: 400px;
+ height: 400px;
+}
+
+.text1{
+  padding-top: 50px;
+ text-align: justify;
+ width: 600px;
+ height: 600px;
+}
+.service2{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  background-color: #000000;
+}
+
+.img2 img{
+  width: 400px;
+ height: 400px;
+ padding-left: 70px;
+ padding-right: 40px;
+}
+
+.text2{
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 50px;
+ text-align: justify;
+ border-top-right-radius: 40px;
+ border-bottom-right-radius: 40px;
+ width: 700px;
+ height: 400px;
+ background-color: #4C40F7;
+}
+
+.service3{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #000000;
+}
+
+.text3{
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 200px;
+ text-align: justify;
+ border-top-left-radius: 40px;
+ border-bottom-left-radius: 40px;
+ width: 700px;
+ height: 400px;
+ background-color: #E63946;
 }
