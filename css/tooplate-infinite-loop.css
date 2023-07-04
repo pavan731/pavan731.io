@@ -1208,6 +1208,46 @@ border-radius: 20px;
   color: white;
 }
 
+.servea{
+
+  display: flex;
+  flex-direction: row;
+  
+ justify-items: center;
+  justify-content: space-around;
+  /* padding-left: 20%;
+  padding-right: 20%; */
+  
+}
+
+.serve12{
+
+background: linear-gradient(to bottom right,#E63946,#E63946);
+
+
+text-align: justify;
+border-radius: 20px;
+width: 500px;
+height: 300px;
+
+
+}
+
+.sera{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+ 
+  color: white;
+}
+
+.sera img{
+  
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+
 .contus{
   display: flex;
   flex-direction: row;
@@ -1234,6 +1274,12 @@ border-radius: 20px;
 }
 
 .serve1 img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+
+}
+
+.serve12 img:hover{
   transform: scale(1.1);
   transition: 0.5s;
 
