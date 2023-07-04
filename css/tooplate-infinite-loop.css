@@ -124,6 +124,26 @@ blockquote {
   background: linear-gradient(to bottom right,#E1467C,#205284);
 }
 
+.they {
+  list-style: none;
+}
+
+.they {
+  color: white;
+}
+
+ .they2 {
+  color: #369;
+}
+
+ .they1:hover,
+ .they1.current,
+.they1:hover {
+  color: #f5f0f0;
+  /* background-image: linear-gradient((#369),(#E1467C)); */
+  background: linear-gradient(to bottom right,#E1467C,#205284);
+}
+
 .navbar-toggler {
   border: 1px solid white;
   padding-left: 10px;
