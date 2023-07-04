@@ -1012,6 +1012,13 @@ input[type=submit]:hover {
   background: linear-gradient(to bottom right,#E1467C,#205284);
 }
 
+.onetextw1{
+  background: linear-gradient(to bottom right,#E1467C,#205284);
+  align-items: center;
+  float: right;
+  border-radius: 90px;
+  padding: 0px 8px 0px 8px;
+}
 
 
 .foot{
@@ -1213,8 +1220,7 @@ border-radius: 20px;
   display: flex;
   flex-direction: row;
   
- justify-items: center;
-  justify-content: space-around;
+ 
   /* padding-left: 20%;
   padding-right: 20%; */
   
@@ -1227,7 +1233,7 @@ background: linear-gradient(to bottom right,#E63946,#E63946);
 
 text-align: justify;
 border-radius: 20px;
-width: 500px;
+width: 550px;
 height: 300px;
 
 
@@ -1235,16 +1241,16 @@ height: 300px;
 
 .sera{
   padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 40px;
+  padding-bottom: 0px;
+  padding-left: 30px;
  
   color: white;
 }
 
 .sera img{
   
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   color: white;
 }
 
