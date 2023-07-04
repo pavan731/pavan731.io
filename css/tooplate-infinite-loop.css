@@ -322,19 +322,21 @@ blockquote {
   padding-top: 50px;
   display: flex;
   
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: row;
 
 }
 
 .movie img{
+  
   padding-top: 30px;
-  height: 100%;
-  width: 100%;
+  max-width: 300px;
   border-radius: 8px;
   
 }
 .movie{
+  
+  max-width: 350px;
   color: white;
   padding-left: 40px;
 }
@@ -383,8 +385,10 @@ blockquote {
 }
 
 .t2container img {
+  
+
   float: right; /* Adjust the spacing between the image and text */
-  padding-left: 20px;
+  padding-left: 10px;
 }
 .t2containere img {
  resize: horizontal;
