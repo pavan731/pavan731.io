@@ -377,6 +377,19 @@ blockquote {
   color: white;
 }
 
+.vert{
+  align-items: center;
+  text-align: center;
+  padding:  40px 40px 40px 40px;
+  font-weight: bolder;
+}
+
+.itemhor{
+  
+  padding: 20px  30px  20px  30px ;
+
+}
+
 
 .t2container {
   display: flex;
