@@ -1130,7 +1130,7 @@ input[type=submit]:hover {
 }
 
 .whitebg {
-  padding-top: 6.667rem;
+  padding-top: 1.667rem;
   background-color: white;
   display: flex;
   flex-direction: row;
@@ -1176,11 +1176,11 @@ input[type=submit]:hover {
   display: flex;
   flex-direction: row;
   justify-items: center;
-  justify-content: space-around;
+  
 }
 
 .serve1 {
-  height: 41.667rem;
+  height: 31.667rem;
   width: 45.833rem;
   background: linear-gradient(to bottom right, #FFA51E, #FA5A92);
   display: flex;
@@ -1191,10 +1191,10 @@ input[type=submit]:hover {
 }
 
 .ser {
-  padding-top: 6.667rem;
-  padding-left: 4rem;
-  height: 16.667rem;
-  width: 41.667rem;
+  padding-top: 3.667rem;
+  padding-left: 3rem;
+  padding-right: 2rem;
+  
   color: white;
 }
 
