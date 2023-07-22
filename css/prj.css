@@ -41,7 +41,7 @@ blockquote {
 
 .tm-section-pad-top {
 	padding-top: 8rem;
-	padding-bottom: 4rem;
+	padding-bottom: 0rem;
 }
 
 .tm-content-box {
@@ -295,7 +295,7 @@ blockquote {
 .servimg2 img {
   /* max-width: fit-content; */
   height: 23.75rem;
-  width: 81.25rem;
+  width: 75.25rem;
   align-items: center;
 }
 
@@ -442,6 +442,7 @@ blockquote {
 
 .tm-down-arrow-link {
   display: block;
+
   margin-top: 58%;
 }
 
@@ -449,6 +450,7 @@ blockquote {
   color: #FFF;
   cursor: pointer;
   background: #357;
+ 
   padding: .2rem 1.8rem;
   transition: all 0.3s ease;
 }
@@ -788,7 +790,7 @@ background-position: center;
 background-repeat: no-repeat;
 min-height: 54.583333333333336rem;
 position: relative;
-padding-bottom: 3.125rem;
+
 padding-top: 6.25rem;
 }
 
@@ -1229,7 +1231,7 @@ input[type=submit]:hover {
   flex-direction: row;
   background: linear-gradient(to bottom right, #FF000F, #FA00FF);
   justify-items: center;
-  width: 85.333rem;
+  width: 76.333rem;
   border-radius: 2rem;
   justify-content: space-around;
 }
@@ -1447,20 +1449,22 @@ img {
   transition: 0.5s;
 }
 
-@media(max-width:998px){
-    html{
-        font-size: 55%;
-    }
+
+
+.anim{
+  background-color: black;
+  color: white; 
+  display: flex; 
+  flex-direction: row;  
+  text-orientation: upright;
 }
 
-@media(max-width:768px){
-    html{
-        font-size: 45%;
-    }
+.abd{
+  height: 10.625rem;
+  width: 100%; 
+  background-color: white; 
+  position: inherit; 
+  z-index: 3.125rem;
 }
 
-@media(max-width:468px){
-    html{
-        font-size: 30%;
-    }
-}
+
