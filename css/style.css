@@ -1254,7 +1254,7 @@ img {
 
 }
 .aactive, .dot:hover {
-  background: linear-gradient(to bottom right,#E1467C,#205284);
+  background: transparent;
 
 }
 

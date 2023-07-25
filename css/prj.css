@@ -387,7 +387,9 @@ blockquote {
 
 .t2container {
   display: flex;
+  
   align-items: center;
+  
 }
 
 .t2container img {
@@ -1231,7 +1233,8 @@ input[type=submit]:hover {
   flex-direction: row;
   background: linear-gradient(to bottom right, #FF000F, #FA00FF);
   justify-items: center;
-  width: 76.333rem;
+  text-align: center;
+  width: 100%;
   border-radius: 2rem;
   justify-content: space-around;
 }
@@ -1330,7 +1333,7 @@ input[type=submit]:hover {
 .ani {
   justify-content: space-around;
   padding: 2.667rem 2.667rem 2.667rem 2.667rem;
-  width: 33.333rem;
+  width: 23.333rem;
 }
 
 .mySlides {
@@ -1402,14 +1405,14 @@ img {
   height: 1.25rem; /* converted from 15px */
   width: 1.25rem; /* converted from 15px */
   margin: 0 0.133rem; /* converted from 0 2px */
-  background-color: #bbb;
+  background-color: grey;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease-in;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: transparent;
 }
 
 /* Fading animation */
@@ -1455,7 +1458,7 @@ img {
   background-color: black;
   color: white; 
   display: flex; 
-  flex-direction: row;  
+  
   text-orientation: upright;
 }
 
@@ -1467,4 +1470,40 @@ img {
   z-index: 3.125rem;
 }
 
+.containeer{
+  display: flex;
+}
+
+/* Set up the slideshow container */
+.slideshow-container {
+  position: relative;
+  overflow: hidden;
+  width: 490px;
+  height: 280px; /* Adjust the height as needed */
+}
+
+/* Add a sliding transition effect */
+.mySlides {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mySlides.active {
+  display: block;
+  animation: slide 1s ease-in-out;
+  z-index: 1;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
 
