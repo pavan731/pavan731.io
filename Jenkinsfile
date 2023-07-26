@@ -20,7 +20,7 @@ pipeline{
 	}
 	stage('deploy'){
               steps{
-                sh 'mv constructive/* ../../../../www/html'
+                sh 'mv website/* ../../../../www/html'
 	      }
 	}
      
