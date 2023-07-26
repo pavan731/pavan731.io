@@ -123,12 +123,12 @@ a:focus {
 }
 
 .header_section  {
-  padding-right: 25px;
-  padding-left: 25px;
+  padding-right: 1px;
+  padding-left: 1px;
 }
 .container-fluid {
-  padding-right: 25px;
-  padding-left: 25px;
+  padding-right: 2px;
+  padding-left: 2px;
   display: flex;
   flex-direction: row;
 }
@@ -1811,3 +1811,5 @@ input[type=text], select, textarea {
       transform: translateX(0%);
     }
   }
+
+  
