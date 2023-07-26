@@ -1689,6 +1689,13 @@ input[type=text], select, textarea {
     justify-content: space-around;
     background-color: #000000;
   }
+  .service5 {
+    padding-top: 3.333rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #000000;
+  }
   
   .img1 img {
     width: 33.333rem;
@@ -1706,6 +1713,18 @@ input[type=text], select, textarea {
     width: 58.333rem;
     height: 30.333rem;
     background-color: #FF6E1A;
+  }
+  .text5 {
+   
+    padding-top: 6.667rem;
+    padding-left: 5.833rem;
+    padding-right: 6.667rem;
+    text-align: justify;
+    border-top-left-radius: 2.667rem;
+    border-bottom-left-radius: 2.667rem;
+    width: 58.333rem;
+    height: 30.333rem;
+    background-color: #007BFF;
   }
   
   .service2 {
@@ -1750,7 +1769,19 @@ input[type=text], select, textarea {
     background-color: #E63946;
   }
 
+  @media(max-width:468px){
+    .text1{
+        font-size: 30%;
+    }
+}
   .img1 img{
+    max-width: 25rem;
+    max-height: 25rem;
+    margin-right:50px; 
+    margin-left:30px; 
+  }
+
+  .img5 img{
     max-width: 25rem;
     max-height: 25rem;
     margin-right:50px; 
