@@ -4148,7 +4148,7 @@ input[type="button"].btn-block {
   /* position: relative;
   display: -ms-flexbox; */
   display: flex;
- flex-direction: row;
+ 
    /* flex-wrap: wrap;
   -ms-flex-align: center;
   align-items: center;
