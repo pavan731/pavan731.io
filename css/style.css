@@ -490,7 +490,7 @@ a:focus {
 }
 
 .server_section {
-  background: linear-gradient(110deg, transparent 25%, #020230 25%);
+  background: linear-gradient(110deg, transparent , #000000 25%);
   padding: 55px 0;
   color: #ffffff;
 }
@@ -624,18 +624,18 @@ a:focus {
 .server_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #ff4646;
-  color: #ffffff;
+  background-color: #fcfcfc;
+  color: #000000;
   border-radius: 5px;
-  border: 1px solid #ff4646;
+  border: 1px solid #080808;
   -webkit-transition: all .3s;
   transition: all .3s;
   margin-top: 25px;
 }
 
 .server_section .detail-box a:hover {
-  background-color: transparent;
-  color: #ff4646;
+  background: linear-gradient(to bottom right,#E1467C,#205284);
+
 }
 
 .price_section .price_container {
@@ -1794,4 +1794,20 @@ input[type=text], select, textarea {
     max-height: 25rem;
     margin-right:50px; 
     margin-left:60px; 
+  }
+
+
+  .mySlides.active {
+    display: block;
+    animation: slide 1s ease-in-out;
+    z-index: 1;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
   }

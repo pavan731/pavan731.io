@@ -8,12 +8,12 @@
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
-  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <link rel="icon" href="./constants/monkey.png" type="image/gif" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Hostit</title>
+  <title>Madmonkey</title>
 
 
   <!-- bootstrap core css -->
@@ -29,10 +29,33 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <!-- hidden section in mobile -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="css/prj.css">
+  <link rel="stylesheet" href="./css/mob.css"> -->
 
+  <style>
+    @media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
+
+@media(max-width:468px){
+    html{
+        font-size: 30%;
+    }
+}
+  </style>
 </head>
 
-<body class="sub_page">
+<body style="background-color: black;">
 
   <div class="hero_area">
     <!-- header section strats -->
@@ -40,7 +63,7 @@
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
-            <span>Hostit</span>
+            <span><img src="./constants/madmonkey.png" width="40%"alt=""></span>
           </a>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,88 +72,219 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto">
-              <li class="nav-item ">
+              <li class="nav-item aactive">
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="about.html"> About</a>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> Aboutus</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="service.html">Services</a>
+                <a class="nav-link" href="services.html">Services</a>
               </li>
+              
               <li class="nav-item">
-                <a class="nav-link" href="price.html">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
             <div class="quote_btn-container">
-              <form class="form-inline">
+              <!-- <form class="form-inline">
                 <button class="btn   nav_search-btn" type="submit">
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </button>
-              </form>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                  Call : +01 123455678990
-                </span>
-              </a>
+              </form> -->
+              <li>
+                <a href="./contact.html"><p class="onetextw1" style="color: white;">1 hour free advice</p></a>
+
+              </li> 
             </div>
           </div>
         </nav>
       </div>
     </header>
     <!-- end header section -->
-  </div>
-
-  <!-- about section -->
-
-  <section class="about_section layout_padding">
-    <div class="container  ">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                About Us
-              </h2>
+    <div class="container">
+    
+      <div class="row tm-content-box"><!-- first row -->
+        <div class="col-lg-12 col-xl-12">
+            <div class="tm-intro-text-container">
+              <div class="acontainer">
+                <div>
+                    <img src="./constants/tie.png" alt="" style="width: 30rem;">
+                </div>
+                <div style="color: white; padding-left: 3.75rem;">
+                    <h6 style="color: yellow;">About us ...</h6>
+                        <h1>Your Brand,our Reach,<br>
+                        a saga forged in heaven
+                        </h1>
+                        <br><br>
+                        <h5 style="text-align: justify; ">Welcome to the jungle of Madmonkey. To put into laymans terms, we are a group of service providers who
+                            "curate-with-care", the most impactful solutions to your marketing needs.
+                        </h4>
+                        <br>
+                        <h5 style="text-align: justify;">In other words, we put the "fun" in the "fun-damentals" of your marketing needs,
+                            from trensformation, development to execution.
+                        </h4>
+                        <br>
+                        <h5 style="text-align: justify;">
+                            Our motto is to customize solutions to suit your Brand needs that make an impact in the market
+                        </h4>
+                        <br>
+                        <h5 style="text-align: justify;">
+                            Connect with us to leave your worry behind and go ballistic into the wide world
+                            of brands, and this is our Madmonkey promise.
+                        </h4>
+                        <br><br><br>
+    
+    
+                </div>
+                <br><br><br>
+    
             </div>
-            <p>
-              Words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks </p>
-            <a href="">
-              Read More
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6 ">
-          <div class="img-box">
-            <img src="images/about-img.png" alt="">
-          </div>
+           
+            </div>
         </div>
 
-      </div>
     </div>
-  </section>
+    <br><br><br><br><br><br>
+    <br>
+    <div class="heading_container" style="padding-left: 1%;">
+      <h2>
+        <h6 style="color: yellow;">Result-Driven Solutions..</h6>
+      </h2>
+      <p style="color: white;">
+        <h1 style="color: white;">We learn,adapt &<br>innovate</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="detail-box">
+          <br>
+           <p style="color: white; text-align: justify;"> In today's progressive world, we analyse the results and then innovate 
+            to find a better solution customized to your need. These solutions are 
+            backed by research that makes sure to drive better results. </p>
+         
+        </div>
+      </div>
+      <div class="col-md-6 ">
+        <div class="img-box">
+          <img src="./constants/resultdrive.png" alt="" width="99%">
+        </div>
+      </div>
 
-  <!-- end about section -->
+    </div>
+            
+          
+  </div>
+  
+
+  <!-- contact section -->
+  <section class="contact_section layout_padding">
+    
+  </section>
+  <!-- end contact section -->
 
   <!-- info section -->
 
-  <section class="info_section layout_padding2">
+  <section id="contact" class="tm-section-pad-taop tm-parallax-2">
+      
+  
+    <!-- <div class="container tm-container-contact"> -->
+      
+      <!-- <div class="row" style="align-items: center;"> -->
+        <!-- <div class="contadiner">
+        <div class="contus">
+
+          <div class="make">
+            <h1 style="font-weight: bold;">Make Mad Monkey your growth partner today</h1>
+            <h4 style=" text-decoration: none; color: white;"><a href="./contact.html" style="color: white;text-decoration: underline;font-weight: bold;">Contact us
+              <img src="./constants/crossarrow.png" alt=""></a></h4>
+            
+          </div>
+          <div class="make"><img src="./constants/Glasses.png" alt="" style="width: 16rem;"></div>
+        </div>
+  
+      </div>   -->
+
+  <div class="footerend">
+    <br><br><br><br>
+
+    <div class="whitebg">
+
+      <div class="logo"> <a href="#infinite" class="navbar-brand">
+        <img src="./constants/madmonkey.png" width="195rem" alt=""></a>
+      <br><h5>India’s Leading Product Marketing Agency</h5>
+      </div>
+
+      <div class="navigation">
+        <dl>
+          <h5><dt>Navigation</dt></h5>
+          <h6> 
+            <br>
+            <a class="foot-link" href="./index.html" style="color: black;"> <dt>Home</dt></a><br>
+
+            <a class="foot-link" href="./about.html" style="color: black;"> <dt>About</dt></a><br>
+        
+            <a class="foot-link" href="./services.html" style="color: black;"> <dt>Services</dt></a>
+            <br>
+            <!-- <dt><a class="foot-link" href="#testimonials" style="color: black;">Testimonials</a></dt><br> -->
+            <dt><a class="foot-link" href="./contact.html" style="color: black;">Contact</a></dt></h6>
+        </dl>
+
+      </div>
+
+      <div class="Reach us">
+
+        <dl>
+          <h5><dt>Reach us</dt></h5> <br>
+          <h6><dt><a href="+91 9110660335" style="color: black;">+91 9110660335</a></dt><br>
+            <dt><a href="connect@madmonkey.in" style="color: black;">connect@madmonkey.in</a></dt></h6>
+        </dl>
+      </div>
+
+      <div class="Connect with us">
+        <h5><dt>Connect with us</dt></h5>
+        <div class="social">
+          <div class="insta">
+            <a href=""><img src="./constants/icon/icon/icon/instagram.png" alt=""></a>
+          </div>
+          <div class="linkd">
+            <a href=""><img src="./constants/icon/icon/icon/linkedin.png" alt=""></a>
+          </div>
+          <div class="fb">
+            <a href=""><img src="./constants/icon/icon/icon/facebook.png" alt=""></a>
+          </div>
+
+         </div>
+
+      </div>
+
+
+    </div>
+
+    <!-- <div class="safran">
+      <h4 style="align-items: center; padding-left: 30%; padding-right: 30%;">
+        Designed & built with passion in India 🚀
+      </h4>
+
+    </div> -->
+
+
+  </div>
+  </section>
+
+  <!-- <section class="info_section layout_padding2">
     <div class="container">
       <div class="row">
         <div class="col-md-3">
           <div class="info_contact">
             <h4>
-              Address
+              <img src="./constants/madmonkey.png" width="195rem" alt="">
             </h4>
-            <div class="contact_link_box">
+            <h5>India’s Leading Product Marketing Agency</h5>
+             <div class="contact_link_box">
               <a href="">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 <span>
-                  Location
+                  
                 </span>
               </a>
               <a href="">
@@ -145,7 +299,7 @@
                   demo@gmail.com
                 </span>
               </a>
-            </div>
+            </div> 
           </div>
           <div class="info_social">
             <a href="">
@@ -160,7 +314,7 @@
             <a href="">
               <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
-          </div>
+          </div> 
         </div>
         <div class="col-md-3">
           <div class="info_link_box">
@@ -168,11 +322,11 @@
               Links
             </h4>
             <div class="info_links">
-              <a class="" href="index.html">
+              <a class="active" href="index.html">
                 <img src="images/nav-bullet.png" alt="">
                 Home
               </a>
-              <a class="active" href="about.html">
+              <a class="" href="about.html">
                 <img src="images/nav-bullet.png" alt="">
                 About
               </a>
@@ -214,18 +368,18 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- end info section -->
 
 
   <!-- footer section -->
   <footer class="footer_section">
-    <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
-      </p>
+    <div class="safran">
+      <h4 style="align-items: center; padding-left: 30%; padding-right: 30%;">
+        Designed & built with passion in India 🚀
+      </h4>
+
     </div>
   </footer>
   <!-- footer section -->
