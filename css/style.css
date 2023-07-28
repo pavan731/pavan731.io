@@ -656,7 +656,9 @@ a:focus {
 
 .price_section .price_container .box .detail-box {
   width: 300px;
-  padding: 40px 20px 15px 20px;
+  height: 400px;
+  padding: 40px 0px 10px 20px;
+  text-align: justify;
   background-color: #fc4b4b;
   border-radius: 25px;
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
@@ -702,6 +704,8 @@ a:focus {
   transition: all .3s;
   border: none;
 }
+
+
 
 .price_section .price_container .box .btn-box a:hover {
   background-color: transparent;
@@ -1632,7 +1636,7 @@ input[type=text], select, textarea {
     align-items: center;
   }
   
-  input[type=submit] {
+  button[type=submit]{
     width: 100%;
     background-color: #FF5E19;
     color: white;
@@ -1642,10 +1646,15 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  input[type=submit]:hover {
+  button[type=submit]:hover {
     background: linear-gradient(to bottom right, #E1467C, #205284);
   }
   
+  .pageclip-form__submit::after {
+    border-color: rgba(0, 255, 0, 0.8);
+    border-left-color: blue;
+  }
+
   .onetextw1 {
     background: linear-gradient(to bottom right, #E1467C, #205284);
     align-items: center;

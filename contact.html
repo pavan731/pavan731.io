@@ -52,6 +52,9 @@
     }
 }
   </style>
+  <!-- form -->
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+
 </head>
 
 <body style="background-color: black;">
@@ -147,7 +150,8 @@
             </div>
   
             <div class="textcol" >
-              <form action="/action_page.php">
+              <form action="https://send.pageclip.co/Ro35WoK7R7uEIkkr2KoFaa2VaK9mgLO0/madmonkey_coustmers"
+              class="pageclip-form" method="post">
                 <label for="fname">Name*</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
             
@@ -162,7 +166,9 @@
                 <label for="subject">Message</label>
                 <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
             
-                <input type="submit" value="SEND MESSAGE">
+                <button type="submit" class="button pageclip-form__submit">
+                  <span>Send Message</span>
+                </button>
               </form>
             </div>
             </div>
@@ -387,8 +393,8 @@
   <script src="js/bootstrap.js"></script>
   <!-- custom js -->
   <script src="js/custom.js"></script>
-
-
+  <!-- form submission -->
+  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 
 </html>
