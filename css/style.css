@@ -1352,6 +1352,13 @@ img {
   transition: 0.5s;
 }
 @media(max-width:468px){
+  .make {
+    font-weight: bolder;
+    padding-left: 2rem;
+    padding-top: 1.333rem;
+    
+    justify-items: center;
+  }
   .serve12 {
       background: linear-gradient(to bottom right, #E63946, #E63946);
       text-align: justify;
@@ -1378,16 +1385,13 @@ img {
   padding-top: 1.667rem;
   background-color: white;
   display: flex;
-  
-  
- 
   justify-content: space-between;
-  border: 9rem solid white;
+  border: 6rem solid white;
 }
 
 @media(max-width:468px){
   .whitebg {
-   
+    border: 1rem solid white;
     flex-direction: column;
  
   }
@@ -1418,7 +1422,7 @@ img {
     flex-direction: column;
     text-align: center;
     justify-content: space-between;
-    border: 9rem solid white;
+    border: 1rem solid white;
   }
   .t2container {
     display: flex;
@@ -1660,7 +1664,7 @@ input[type=text], select, textarea {
     align-items: center;
     float: right;
     border-radius: 1.5rem;
-    padding: 0px 0.667rem 0px 0.667rem;
+    /* padding: 0px 0.667rem 0px 0.667rem; */
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1676,7 +1680,22 @@ input[type=text], select, textarea {
     margin-left: auto;
 
   }
-  .make img:hover {
+
+  .make1 img{
+    width: 16rem;
+    
+  }
+
+  @media(max-width:468px){
+    .make1 img{
+      width: 10rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .make1 img:hover {
+    
     transform: scaleX(1.2);
     transition: 0.5s;
   }
@@ -1699,6 +1718,7 @@ input[type=text], select, textarea {
     background-color: #000000;
   }
   .service5 {
+    text-align: justify;
     padding-top: 3.333rem;
     display: flex;
     flex-direction: row;
@@ -1716,7 +1736,6 @@ input[type=text], select, textarea {
     padding-top: 6.667rem;
     padding-left: 5.833rem;
     padding-right: 6.667rem;
-    text-align: justify;
     border-top-left-radius: 2.667rem;
     border-bottom-left-radius: 2.667rem;
     width: 58.333rem;
@@ -1821,4 +1840,8 @@ input[type=text], select, textarea {
     }
   }
 
-  
+  .html{
+    .h1{
+    ;
+    }
+  }
