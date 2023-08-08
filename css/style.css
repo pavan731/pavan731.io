@@ -1512,7 +1512,7 @@ img {
 }
 @media(max-width:568px){
   .bethe {
-    text-shadow: 0 5px 0.083rem #d53030;
+    text-shadow: 0 1px 0.083rem #d53030;
     -webkit-text-stroke: 0.083rem black;
     padding-bottom: 6.667rem;
     padding-left: 0;
@@ -1664,6 +1664,7 @@ input[type=text], select, textarea {
     align-items: center;
     float: right;
     border-radius: 1.5rem;
+    
     /* padding: 0px 0.667rem 0px 0.667rem; */
     white-space: nowrap;
     overflow: hidden;
@@ -1840,8 +1841,6 @@ input[type=text], select, textarea {
     }
   }
 
-  .html{
-    .h1{
-    ;
-    }
-  }
+ /* 3d effect  */
+
+ 
