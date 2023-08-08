@@ -1493,7 +1493,7 @@ img {
 @media(max-width:768px){
   .contact {
     text-decoration: none;
-    border: 3.333rem solid #000000;
+    border: 0.333rem solid #000000;
     border-radius: 2rem;
     padding-top: 10%;
     background-color: #000000;
