@@ -149,7 +149,7 @@ a:focus {
   margin: 10px 15px;
   color: #ffffff;
   text-align: center;
-  text-transform: uppercase;
+  
 }
 
 .custom_nav-container .nav_search-btn {
@@ -255,7 +255,7 @@ a:focus {
 
 .quote_btn-container a {
   color: #ffffff;
-  text-transform: uppercase;
+  
 }
 
 .quote_btn-container a span {
@@ -294,7 +294,7 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-  font-weight: bold;
+  font-weight: 500;
   margin-bottom: 25px;
   font-size: 2rem;
 }
@@ -351,6 +351,7 @@ a:focus {
 
 .slider_section .img-box img {
   width: 100%;
+  
 }
 
 .slider_section .carousel_btn-box {

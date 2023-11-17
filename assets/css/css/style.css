@@ -147,7 +147,7 @@ a:hover, a:focus {
   margin: 10px 15px;
   color: #ffffff;
   text-align: center;
-  text-transform: uppercase;
+  
 }
 
 .custom_nav-container .nav_search-btn {
@@ -251,7 +251,7 @@ a:hover, a:focus {
 
 .quote_btn-container a {
   color: #ffffff;
-  text-transform: uppercase;
+ 
 }
 
 .quote_btn-container a span {
@@ -292,7 +292,7 @@ a:hover, a:focus {
 }
 
 .slider_section .detail-box h1 {
-  font-weight: bold;
+  font-weight: 500;
   margin-bottom: 25px;
   font-size: 2rem;
 }
@@ -348,7 +348,8 @@ a:hover, a:focus {
 }
 
 .slider_section .img-box img {
-  width: 100%;
+  max-width: 120%;
+  
 }
 
 .slider_section .carousel_btn-box {
@@ -390,7 +391,8 @@ a:hover, a:focus {
 }
 
 .about_section .img-box img {
-  max-width: 100%;
+  max-width: 80%;
+  float: right;
 }
 
 .about_section .detail-box p {
@@ -684,7 +686,7 @@ a:hover, a:focus {
 }
 
 .price_section .price_container .box:hover {
-  color: #ffffff;
+  color: #000000;
 }
 
 .price_section .price_container .box:hover .detail-box {
@@ -1022,13 +1024,12 @@ a:hover, a:focus {
 
 .acontainer {
   display: flex;
-  padding: 1.25rem 2.5rem;
-  align-items: center;
+  
   justify-content: space-between;
 }
 
 .acontainer img {
-  margin-left: 1.25rem;
+  
   padding-right: 2.5rem;
 }
 
@@ -1084,8 +1085,8 @@ a:hover, a:focus {
 }
 
 .movies {
-  padding: 1.25rem 1.25rem 1.25rem 1.25rem;
-  padding-top: 3.125rem;
+  
+  padding-top: 1.525rem;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -1113,10 +1114,7 @@ a:hover, a:focus {
   transition: 0.5s;
 }
 
-.acontainer img:hover {
-  transform: scale(0.9);
-  transition: 0.5s;
-}
+
 
 .vert {
   align-items: center;
