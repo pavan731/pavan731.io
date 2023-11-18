@@ -461,8 +461,8 @@ a:hover, a:focus {
 
 .service_section .box .img-box img {
   width: 100%;
-  max-width: 45px;
-  max-height: 45px;
+  max-width: 60px;
+  max-height: 60px;
 }
 
 .service_section .box .detail-box {
@@ -1789,23 +1789,23 @@ button[type=submit]:hover {
 }
 
 .img1 img {
-  max-width: 25rem;
-  max-height: 25rem;
+  max-width: 30rem;
+  max-height: 30rem;
   margin-right: 50px;
   margin-left: 30px;
 }
 
 .img5 img {
-  max-width: 25rem;
-  max-height: 25rem;
+  max-width: 30rem;
+  max-height: 30rem;
   margin-right: 50px;
-  margin-left: 30px;
+  margin-left: 60px;
 }
 
 .img2 img {
-  padding-top: 3.667rem;
-  max-width: 25rem;
-  max-height: 25rem;
+  
+  max-width: 30rem;
+  max-height: 30rem;
   margin-right: 50px;
   margin-left: 60px;
 }
