@@ -449,7 +449,8 @@ a:hover, a:focus {
 }
 
 .service_section .box {
-  margin-top: 45px;
+  margin: 1rem 1rem 1rem 1rem;
+  margin-top: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1201,7 +1202,7 @@ a:hover, a:focus {
 
 @media (max-width: 768px) {
   .service_section .box .img-box {
-    width: 426px;
+    width: 400px;
     height: 75px;
     background-color: transparent;
     border-radius: 100%;
