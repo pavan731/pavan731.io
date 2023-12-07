@@ -41,8 +41,16 @@ body {
   flex-direction: column;
   -webkit-box-align: start;
   -ms-flex-align: start;
-  align-items: flex-start;
+  
 }
+/* For mobile devices */
+@media (max-width: 768px) {
+  .heading_container {
+      text-align: center; /* Align center for mobile */
+      padding-left: 0; /* Remove left padding for mobile */
+  }
+}
+
 
 .heading_container h2 {
   position: relative;
@@ -347,10 +355,29 @@ a:hover, a:focus {
   color: #ff4646;
 }
 
-.slider_section .img-box img {
-  max-width: 120%;
-  
+/* For desktop */
+.desktop-image {
+  display: block;
 }
+
+/* For mobile */
+.mobile-image {
+  display: none;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .desktop-image {
+      display: none;
+  }
+
+  .mobile-image {
+      display: block;
+  }
+}
+
+
+
 
 .slider_section .carousel_btn-box {
   position: absolute;
@@ -1023,6 +1050,98 @@ a:hover, a:focus {
   
   justify-content: space-between;
 }
+@media (max-width:468px) {
+  .acontainer {
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: space-between;
+  }
+}
+
+/* Default styles */
+.main-paragraph {
+  
+  padding-left:3.75rem;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .main-paragraph {
+      text-align: center; /* Change alignment for mobile */
+      padding: 0.1rem 2rem 0.1rem 2rem;
+      text-align: justify;
+      padding-left: 2rem;
+      font-size: large;
+      line-height: 1.1rem;
+     
+  }
+}
+.mainparagraph {
+  font-size: xx-large;
+  text-align: center;
+  /* Styles applicable to both mobile and desktop */
+}
+
+/* For desktop */
+@media (min-width: 769px) {
+  .mainparagraph {
+    font-size: xxx-large;
+  text-align: left;
+    padding-left: 3.75rem; /* Add padding for desktop */
+    
+  }
+}
+
+
+.mobtext {
+  padding-left: 3.75rem;
+}
+@media (max-width: 768px) {
+  .mobtext {
+    padding-left: 0; /* Reset the padding for mobile */
+  }
+}
+/* For mobile devices */
+/* For mobile devices */
+/* For mobile devices */
+@media (max-width: 768px) {
+  .mobtext::before {
+      content: "- ABOUT US -"; /* Content for mobile */
+      color: yellow; /* Set the color for mobile content */
+      display: block; /* Ensure it's on a new line */
+      text-align: center; /* Center the content */
+  }
+}
+
+@media (max-width: 768px) {
+  .mobtexts {
+    padding-left: 0; /* Reset the padding for mobile */
+    text-align: center;
+  }
+}
+/* For mobile devices */
+/* For mobile devices */
+/* For mobile devices */
+@media (max-width: 768px) {
+  .mobtexts::before {
+      content: "- SERVICES -"; /* Content for mobile */
+      color: yellow; /* Set the color for mobile content */
+      display: block; /* Ensure it's on a new line */
+      text-align: center; /* Center the content */
+  }
+}
+
+/* For desktop */
+@media (max-width: 1769px) {
+  .mobtext::after {
+      content: "About us..."; /* Content for desktop after text */
+      
+      color: black; /* Set color for desktop content */
+  }
+}
+
+
+
 
 .acontainer img {
   
@@ -1079,6 +1198,36 @@ a:hover, a:focus {
   height: 4rem;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .service_section .box .img-box {
+    width: 426px;
+    height: 75px;
+    background-color: transparent;
+    border-radius: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+   
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    
+    padding: 10px;
+  }
+
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .heading_container {
+      text-align: center; /* Align center for mobile */
+      padding-left: 0; /* Remove left padding for mobile */
+  }
+}
+
 
 .movies {
   
