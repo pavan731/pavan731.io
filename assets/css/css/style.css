@@ -51,6 +51,18 @@ body {
   }
 }
 
+@media (max-width: 769px) {
+  .moblock .img{
+      display: none;
+      background-color: white;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobwe{
+    font-size: x-large;
+  }
+}
 
 .heading_container h2 {
   position: relative;
@@ -628,6 +640,25 @@ a:hover, a:focus {
   margin-top: 25px;
 }
 
+@media (max-width: 768px) {
+  .server_section .detail-box a {
+    margin-left: 5rem;
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #fcfcfc;
+    color: #000000;
+    border-radius: 5px;
+    border: 1px solid #080808;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    margin-top: 25px;
+  }
+
+  .mobwant h1{
+    font-size: x-large;
+  }
+} 
+
 .server_section .detail-box a:hover {
   background: linear-gradient(to bottom right,#E1467C,#205284);
 }
@@ -1078,7 +1109,7 @@ a:hover, a:focus {
   }
 }
 .mainparagraph {
-  font-size: xx-large;
+  font-size: x-large;
   text-align: center;
   /* Styles applicable to both mobile and desktop */
 }
@@ -1202,7 +1233,7 @@ a:hover, a:focus {
 
 @media (max-width: 768px) {
   .service_section .box .img-box {
-    width: 400px;
+    width: 275px;
     height: 75px;
     background-color: transparent;
     border-radius: 100%;
@@ -1219,6 +1250,18 @@ a:hover, a:focus {
     padding: 10px;
   }
 
+}
+
+@media (max-width: 768px) {
+  .serve .p {
+    line-height: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobwe {
+    text-align: center;
+  }
 }
 
 /* For mobile devices */
@@ -1600,6 +1643,15 @@ img {
   display: flex;
   flex-direction: row;
   padding-left: 0.667rem;
+}
+@media (max-width: 768px) {
+  .social {
+ 
+    padding-top: 0.833rem;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5.667rem;
+  }
 }
 
 .social img {
