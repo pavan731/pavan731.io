@@ -654,10 +654,19 @@ a:hover, a:focus {
     margin-top: 25px;
   }
 
-  .mobwant h1{
+  
+} 
+@media (max-width: 768px) {
+  .mobwant {
     font-size: x-large;
   }
-} 
+}
+
+@media (min-width: 769px) {
+.mobwant {
+  font-size: 2.5rem;
+}
+}
 
 .server_section .detail-box a:hover {
   background: linear-gradient(to bottom right,#E1467C,#205284);
@@ -1634,6 +1643,27 @@ img {
 @media (min-width: 769px) {
   .whatwedo {
     display: block;
+  }
+}
+.mainparagraphh {
+  font-size: 2.5rem;
+}
+@media (max-width: 768px) {
+  .mainparagraphh {
+    font-size: x-large;
+  }
+}
+
+@media (min-width: 769px) {
+.mobsome img{
+  display: none;
+}
+}
+
+/* Use media query to show the .mobsome div only on mobile devices */
+@media (max-width: 768px) {
+  .mobsome img{
+      display: block; /* Show the .mobsome div on mobile devices */
   }
 }
 
