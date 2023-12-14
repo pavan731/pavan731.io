@@ -1676,7 +1676,6 @@ img {
 }
 @media (max-width: 768px) {
   .social {
- 
     padding-top: 0.833rem;
     display: flex;
     flex-direction: row;
@@ -1968,7 +1967,28 @@ button[type=submit]:hover {
   width: 33.333rem;
   height: 33.333rem;
 }
+@media (max-width:468px){
+  .img1 img {
+    width: 90%;
+    height: 90%;
+    margin: 1rem;
+  }
+  .img2 img {
+    width: 90%;
+    height: 90%;
+    margin: 1rem;
+    
+  }
 
+  .img5 img {
+    width: 90%;
+    height: 90%;
+    margin: 1rem;
+  }
+  
+  
+
+}
 
 
 
@@ -1984,6 +2004,10 @@ button[type=submit]:hover {
 }
 
 @media (max-width:468px){
+  .ourof{
+    padding-left: 1rem;
+  }
+
   .text1 {
     margin-top: 2rem;
     text-align: center;
@@ -2169,27 +2193,35 @@ button[type=submit]:hover {
   }
 }
 
-.img1 img {
-  max-width: 30rem;
-  max-height: 30rem;
-  margin-right: 50px;
-  margin-left: 30px;
-}
-
-.img5 img {
-  max-width: 30rem;
-  max-height: 30rem;
-  margin-right: 50px;
-  margin-left: 60px;
-}
-
-.img2 img {
+@media (min-width:469px)
+{
+  .img1 img {
+    max-width: 30rem;
+    max-height: 30rem;
+    margin-right: 50px;
+    margin-left: 30px;
+  }
   
-  max-width: 30rem;
-  max-height: 30rem;
-  margin-right: 50px;
-  margin-left: 60px;
+  .img5 img {
+    max-width: 30rem;
+    max-height: 30rem;
+    margin-right: 50px;
+    margin-left: 60px;
+  }
+  
+  .img2 img {
+    
+    max-width: 30rem;
+    max-height: 30rem;
+    margin-right: 50px;
+    margin-left: 60px;
+  }
+  .ourof{
+    padding-left: 4rem;
+  }
 }
+
+
 
 .mySlides.active {
   display: block;
