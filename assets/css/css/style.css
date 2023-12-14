@@ -1931,6 +1931,18 @@ button[type=submit]:hover {
   background-color: #000000;
 }
 
+@media (max-width:468px) {
+  .service1 {
+    padding-top: 3.333rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #000000;
+  }
+
+
+}
+
 .service5 {
   text-align: justify;
   padding-top: 3.333rem;
@@ -1940,10 +1952,25 @@ button[type=submit]:hover {
   background-color: #000000;
 }
 
+@media (max-width:468px){
+  .service5 {
+    text-align: justify;
+    padding-top: 3.333rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #000000;
+  }
+
+}
+
 .img1 img {
   width: 33.333rem;
   height: 33.333rem;
 }
+
+
+
 
 .text1 {
   padding-top: 6.667rem;
@@ -1955,6 +1982,26 @@ button[type=submit]:hover {
   height: 30.333rem;
   background-color: #FF6E1A;
 }
+
+@media (max-width:468px){
+  .text1 {
+    margin-top: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-top-left-radius: 2.667rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2.667rem;
+    width: 100%;
+    height: 100%;
+    background-color: #FF6E1A;
+  }
+
+}
+
 
 .text5 {
   padding-top: 6.667rem;
@@ -1968,12 +2015,43 @@ button[type=submit]:hover {
   background-color: #007BFF;
 }
 
+@media (max-width:468px){
+  .text5 {
+    margin-top: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-top-left-radius: 2.667rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2.667rem;
+    width: 100%;
+    height: 100%;
+    background-color: #007BFF;
+  }
+
+}
+
 .service2 {
   padding-top: 3.333rem;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
   background-color: #000000;
+}
+
+@media (max-width:468px) {
+  .service2 {
+    padding-top: 3.333rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #000000;
+  }
+
+
 }
 
 .text2 {
@@ -1988,6 +2066,52 @@ button[type=submit]:hover {
   background-color: #4C40F7;
 }
 
+@media (max-width:468px){
+  .text2 {
+    margin-top: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-top-left-radius: 2.667rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2.667rem;
+    width: 100%;
+    height: 100%;
+    background-color: #4C40F7;
+  }
+
+  .text2h{
+    float: none;
+  }
+  
+  .text3h{
+    float: none;
+  }
+  .text4h{
+    float: none;
+  }
+
+}
+
+@media (min-width:469px){
+  .text2h{
+    float: right;
+    margin-bottom: 1rem;
+  }
+
+  .text3h{
+    float: left;
+  }
+
+  .text4h{
+    float: right;
+  }
+
+}
+
 .service3 {
   padding-top: 3.333rem;
   display: flex;
@@ -1995,8 +2119,20 @@ button[type=submit]:hover {
   justify-content: space-around;
   background-color: #000000;
 }
+@media (max-width:468px){
+  .service3 {
+    padding-top: 3.333rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #000000;
+  }
+
+}
+
 
 .text3 {
+
   padding-top: 6.667rem;
   padding-left: 5.833rem;
   padding-right: 6.667rem;
@@ -2006,6 +2142,25 @@ button[type=submit]:hover {
   width: 58.333rem;
   height: 30.333rem;
   background-color: #E63946;
+}
+
+@media (max-width:468px){
+  .text3 {
+    margin-top: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-top-left-radius: 2.667rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2.667rem;
+    width: 100%;
+    height: 100%;
+    background-color: #E63946;
+
+}
 }
 
 @media (max-width:468px) {
