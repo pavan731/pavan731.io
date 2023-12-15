@@ -642,7 +642,7 @@ a:hover, a:focus {
 
 @media (max-width: 768px) {
   .server_section .detail-box a {
-    margin-left: 5rem;
+    margin-left: 7rem;
     display: inline-block;
     padding: 10px 45px;
     background-color: #fcfcfc;
