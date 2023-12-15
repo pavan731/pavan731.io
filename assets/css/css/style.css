@@ -1524,6 +1524,8 @@ img {
   justify-items: center;
 }
 
+
+
 .make img:hover {
   transform: scaleX(1.2);
   transition: 0.5s;
@@ -1532,7 +1534,7 @@ img {
 @media (max-width:468px) {
   .make {
     font-weight: bolder;
-    padding-left: 2rem;
+    padding-left: 1rem;
     padding-top: 1.333rem;
     justify-items: center;
   }
@@ -1688,8 +1690,11 @@ img {
     padding-top: 0.833rem;
     display: flex;
     flex-direction: row;
-    padding-left: 7.5rem;
+    padding-right: 30%;
+    padding-left: 30%;
   }
+
+  
 }
 
 .social img {
@@ -1914,12 +1919,17 @@ button[type=submit]:hover {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+  .make1t{
+    font-size: x-large;
+    margin: 1rem;
+    
+  }
 }
 
-.make1 img:hover {
+/* .make1 img:hover {
   transform: scaleX(1.2);
   transition: 0.5s;
-}
+} */
 
 .serve1 img:hover {
   transform: scale(1.1);
