@@ -125,7 +125,7 @@ a:hover, a:focus {
 .hero_area {
   position: relative;
   background-color: #000000;
-  min-height: 100vh;
+  min-height: 25vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
