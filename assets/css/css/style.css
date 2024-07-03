@@ -1683,7 +1683,7 @@ img {
   padding-top: 0.833rem;
   display: flex;
   flex-direction: row;
-  padding-left: 0.667rem;
+  padding-left: 0.01rem;
 }
 @media (max-width: 768px) {
   .social {
